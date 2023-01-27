@@ -1,0 +1,82 @@
+{
+    "socials": [
+        {
+            "id": 1,
+            "name": "LinkedIn",
+            "href": "https://www.linkedin.com",
+            "icon": "fa fa-linkedin-square"
+        },
+        {
+            "id": 2,
+            "name": "Twitter",
+            "href": "https://twitter.com",
+            "icon": "fa fa-twitter-square"
+        },
+        {
+            "id": 3,
+            "uid": "67b4865b-4034-4b5f-b8f0-66d2a7a726b2",
+            "name": "Facebook",
+            "href": "https://www.facebook.com",
+            "icon": "fa fa-facebook-square"
+        }
+    ],
+
+    "team_members": [
+        {
+            "id": 1,
+            "uid": "67b4865b-4034-4b5f-b8f0-66d2a7a726b2",
+            "first_name": "Onie",
+            "last_name": "Gutkowski",
+            "username": "onie.gutkowski",
+            "email": "onie.gutkowski@email.com",
+            "avatar": "https://robohash.org/sedconsequaturmaxime.png?size=300x300&set=set1",
+            "gender": "Agender",
+            "phone_number": "+670 422-878-4686",
+            "subscription": {
+            "plan": "Diamond",
+            "status": "Pending",
+            "payment_method": "Visa checkout",
+            "term": "Monthly"
+            }
+        }
+    ],
+
+    "clients": [
+       {
+            "id": 1,
+            "uid": "67b4865b-4034-4b5f-b8f0-66d2a7a726b2",
+            "first_name": "Onie",
+            "last_name": "Gutkowski",
+            "username": "onie.gutkowski",
+            "email": "onie.gutkowski@email.com",
+            "avatar": "https://robohash.org/sedconsequaturmaxime.png?size=300x300&set=set1",
+            "gender": "Agender",
+            "phone_number": "+670 422-878-4686",
+            "subscription": {
+                "plan": "Diamond",
+                "status": "Pending",
+                "payment_method": "Visa checkout",
+                "term": "Monthly"
+            }
+        }
+    ],
+    "volunteers": [
+               {
+            "id": 1,
+            "uid": "67b4865b-4034-4b5f-b8f0-66d2a7a726b2",
+            "first_name": "Onie",
+            "last_name": "Gutkowski",
+            "username": "onie.gutkowski",
+            "email": "onie.gutkowski@email.com",
+            "avatar": "https://robohash.org/sedconsequaturmaxime.png?size=300x300&set=set1",
+            "gender": "Agender",
+            "phone_number": "+670 422-878-4686",
+            "subscription": {
+            "plan": "Diamond",
+            "status": "Pending",
+            "payment_method": "Visa checkout",
+            "term": "Monthly"
+            }
+        }
+    ]
+}
