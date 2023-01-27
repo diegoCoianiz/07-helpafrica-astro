@@ -84,3 +84,17 @@ export interface Subscription {
     term:          string;
 }
 
+export interface Pricing {
+    pricing?: PricingElement[];
+}
+
+export interface PricingElement {
+    taxesAmount?:    number;
+    monthPrice?:     number;
+    yearPrice?:      number;
+    term?:           string[];
+    bullets?:        string[];
+    isDiscount?:     boolean;
+    discountAmount?: number;
+}
+

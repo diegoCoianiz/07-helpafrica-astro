@@ -78,5 +78,22 @@
             "term": "Monthly"
             }
         }
+    ],
+
+    "pricing": [
+        {
+            "taxes_amount": 21,
+            "month_price": 4900,
+            "year_price": 49900,
+            "term": ["Monthly", "Yearly"],
+            "bullets": [
+                "fafsafsfasfasa",
+                "fasfasfasfasfas",
+                "sfasfasfafasfa"
+            ],
+            "has_discount": false,
+            "discount_amount": 30
+            
+        }
     ]
 }
