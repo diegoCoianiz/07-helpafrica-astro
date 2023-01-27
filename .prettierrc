@@ -4,8 +4,8 @@
   "bracketSameLine": true,
   "bracketSpacing": true,
   "jsxSingleQuote": false,
+
   "semi": true,
-  "singleAttributePerLine": true,
-  "requirePragma": true,
-  "parser": "babel"
+  "singleAttributePerLine": false,
+  "htmlWhitespaceSensitivity": "css"
 }

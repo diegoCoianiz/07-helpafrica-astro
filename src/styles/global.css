@@ -1,12 +1,11 @@
-@tailwind base; 
-@tailwind components;
-@tailwind utilities;
+@import "./tw.css";
 
-:root {
+/* :root {
     --width: 720px;
     --font-main: Verdana, sans-serif;
     --font-secondary: Verdana, sans-serif;
     --font-scale: 1em;
+    
     --bg-color-red: #CB2A27;
     --background-color: #fff;
     --heading-color: #292929;
@@ -38,19 +37,16 @@ body {
     padding: 20px;
     max-width: var(--width);
     text-align: left;
-    /* background-color: var(--background-color); */
     word-wrap: break-word;
     overflow-wrap: break-word;
     line-height: 1.5;
-    /* color: var(--text-color); */
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-main);
     /* color: var(--heading-color); */
-}
 
-a {
+/* a {
     color: var(--link-color);
     cursor: pointer;
     text-decoration: none;
@@ -108,9 +104,9 @@ blockquote {
 footer {
     padding: 25px 0;
     text-align: center;
-}
+} */
 
-.title:hover {
+/* .title:hover {
     text-decoration: none;
 }
 
@@ -133,7 +129,7 @@ footer {
 }
 
 /* blog post list */
-ul.blog-posts {
+/* ul.blog-posts {
     list-style-type: none;
     padding: unset;
 }
@@ -148,4 +144,4 @@ ul.blog-posts li span {
 
 ul.blog-posts li a:visited {
     color: var(--visited-color);
-}
+} */
