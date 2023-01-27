@@ -4,7 +4,6 @@
   "bracketSameLine": true,
   "bracketSpacing": true,
   "jsxSingleQuote": false,
-
   "semi": true,
   "singleAttributePerLine": false,
   "htmlWhitespaceSensitivity": "css"
