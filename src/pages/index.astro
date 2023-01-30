@@ -1,10 +1,22 @@
 ---
 import Layout from "@layouts/Layout.astro";
+
+
+export interface Props {
+  siteTitle: string;
+  siteDescription?: string;
+  publishDate?: string | Date;
+}
+
 export const prerender = true;
+
+
+const { siteTitle = 'Help Africa Homepage', siteDescription = '', publishDate = new Date() } = Astro.props as Props;
+
 ---
 
 <Layout title="Homepage Title" description="Homepage Description">
   <main class="max-w-3xl m-auto flex place-items-center">
-    <h1 class="text-slate-900 text-8xl">App Root</h1>
+    <h1 class="text-slate-500 text-6xl">{siteTitle}</h1>
   </main>
 </Layout>

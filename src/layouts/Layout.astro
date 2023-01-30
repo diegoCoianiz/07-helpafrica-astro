@@ -2,6 +2,7 @@
 import Footer from "@components/Footer.astro";
 import Header from "@components/Header.astro";
 import "@styles/global.css";
+import Navigation from './Navigation.astro';
 
 export const prerender = true;
 ---
@@ -42,7 +43,9 @@ export const prerender = true;
     <meta property="twitter:image" content={new URL(image, Astro.url)} /> -->
   </head>
   <body class="bg-gray-100">
-    <Header SITE_TITLE="" SITE_DESCRIPTION="" />
+    <Header SITE_TITLE="" SITE_DESCRIPTION="">
+      <Navigation />
+    </Header>
 
     <slot />
 
